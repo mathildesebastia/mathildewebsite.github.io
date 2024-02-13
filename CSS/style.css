@@ -1,0 +1,157 @@
+body {
+    background-color:white;
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/*.banner {
+    background-image: url(Images/Comment-prendre-une-photo.jpg);
+    background-position:center;
+    border-radius: 50px;
+    padding: 200px 0px;
+    background-size: cover;
+    overflow: hidden; 
+}*/
+
+/*.primary-button{
+    background-color: rgb(251, 238, 204);
+    display: inline-block;
+    border-radius: 50px;
+    color: black;
+    padding: 16px;
+}*/ 
+
+@media(max-width: 900px) {
+    .container {
+      width: 500px;
+    }
+} 
+@media(max-width: 500px) {
+    .container {
+      width: 300px;
+    }
+}
+.container{
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(251, 238, 204);
+    border-radius: 20px;
+    margin: 20px auto;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    font-size: 24px;
+    color: black;
+    text-transform: uppercase;
+    margin: 10px 0px 10px;
+    text-align: center;
+}
+
+a {
+    display: block; 
+    margin: 10px auto;
+    max-width: 90%; 
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgb(251, 238, 204);
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+} 
+  
+
+@media (max-width: 900px){
+    .cards {
+        justify-content: space-between;
+    }
+}
+@media(max-width: 500px) {
+    .cards {
+      justify-content: space-around;
+    }
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 900px){
+    .card {
+    margin-bottom: 15px;
+    flex-basis: 45%;
+    }
+}
+@media (max-width: 600px) {
+    .card {
+        flex-basis: 100%; 
+    }
+}
+.card{
+    flex: 200px;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgb(251, 238, 204);
+    text-align: center;
+    padding: 20px;
+    border: 2px solid rgb(230, 230, 230);
+}
+.card img {
+    width: 120px;
+    height:auto;
+}
+
+p{
+    font-size: medium;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 10px;
+}
+h2{
+    font-size: 20px;
+    margin: 10px auto;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.img-sm{
+    margin: 12px;
+    width: 150px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.list-inline{
+    list-style: none;
+    padding: 5px 5px;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(251, 238, 204);
+}
